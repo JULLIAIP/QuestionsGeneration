@@ -17,7 +17,10 @@
 
 <p>Esta aplicação tem a função de deixar o participante escolher o numero de questões que elx deseja responder, corrigir as questões respondidas e apresentar a taxa de acertos.</p>
 
-![React App - Google Chrome_6](https://user-images.githubusercontent.com/81257067/146931322-c06850a3-d6d1-4d07-9333-47b486106802.jpg)
-![React App - Google Chrome_7](https://user-images.githubusercontent.com/81257067/146931382-5195f5f4-76a6-441b-9a10-cebf8121b355.jpg)
-![React App - Google Chrome_8](https://user-images.githubusercontent.com/81257067/146931471-370e5f9c-889b-428f-b590-765de93ec37c.jpg)
-![React App - Google Chrome_9](https://user-images.githubusercontent.com/81257067/146931500-2f21b7c6-796a-46ae-b22a-8257fbd685d8.jpg)
+![React App - Google Chrome_10](https://user-images.githubusercontent.com/81257067/146971013-03c0ca75-64ad-4b68-abbc-64d62ba8c7ef.jpg)
+![React App - Google Chrome_11](https://user-images.githubusercontent.com/81257067/146971035-8cb50afc-b495-4aaa-9a29-4cf28af06ae9.jpg)
+![React App - Google Chrome_12](https://user-images.githubusercontent.com/81257067/146971065-5fca0833-c4e0-4228-a359-cf1251935032.jpg)
+![React App - Google Chrome_13](https://user-images.githubusercontent.com/81257067/146971115-870c5683-d35f-40a5-9f6b-594b53e81401.jpg)
+![React App - Google Chrome_14](https://user-images.githubusercontent.com/81257067/146971139-b91e469c-6893-4f12-8fbc-4ed54018c67d.jpg)
+![React App - Google Chrome_15](https://user-images.githubusercontent.com/81257067/146971181-64199994-5dc7-484c-a971-ca581f80e29b.jpg)
+![React App - Google Chrome_16](https://user-images.githubusercontent.com/81257067/146971484-564e96ce-d414-451a-8985-a10e6c9e2c05.jpg)
