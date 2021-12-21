@@ -9,7 +9,7 @@
 <h6>Context API</h6>
 <hr/>
 <h3>Demais libs</h3>
-<h6>Styled Components</h6>
+<h6>Styled components</h6>
 <h6>React router dom</h6>
 <h6>React toast</h6>
 <h6>Axios</h6>
