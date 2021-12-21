@@ -56,7 +56,7 @@ const QuestionsPage = () => {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography>Question 1</Typography>
+              <Typography>Question </Typography>
             </AccordionSummary>
 
             <AccordionDetails>

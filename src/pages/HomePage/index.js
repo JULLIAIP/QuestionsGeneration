@@ -76,12 +76,11 @@ const HomePage = () => {
         )}
         <CardInput>
           <span>
-            Aqui você pode escolher a quantidade de questões que deseja
-            responder:
+            Here you can choose how many questions you want to answer:
           </span>
           <TextField
             id="outlined-basic"
-            label="Quantas questões?"
+            label="how much?"
             variant="outlined"
             fullWidth
             onChange={(e) => setQuantity(e.target.value)}
