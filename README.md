@@ -1,8 +1,7 @@
-# <a href"https://cluttered-range.surge.sh/">QuestionsGeneration</a>
+# <a href="https://cluttered-range.surge.sh/">QuestionsGeneration</a>
 
 
 <p>Esta aplicação tem a função de deixar o participante escolher o numero de questões que elx deseja responder, corrigir as questões respondidas e apresentar a taxa de acertos.</p>
-![React App - Google Chrome_5](https://user-images.githubusercontent.com/81257067/146931224-0e24dc76-b863-4f4b-a1f8-01c885c62724.jpg)
 
 ![React App - Google Chrome_6](https://user-images.githubusercontent.com/81257067/146931322-c06850a3-d6d1-4d07-9333-47b486106802.jpg)
 ![React App - Google Chrome_7](https://user-images.githubusercontent.com/81257067/146931382-5195f5f4-76a6-441b-9a10-cebf8121b355.jpg)
