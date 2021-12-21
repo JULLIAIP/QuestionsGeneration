@@ -8,7 +8,7 @@ export const WrapperHeader = styled.div`
   color:${colors.white};
   gap: 5%;
   width: 100%;
-  height: 120px;
+  height: 15vh;
   box-shadow: rgb(41 50 60 / 20%) 20px 25px 30px;
   backdrop-filter: blur(40px);
   padding-left: 5%;
