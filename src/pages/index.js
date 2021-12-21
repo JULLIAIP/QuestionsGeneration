@@ -2,10 +2,10 @@ import { useLayoutEffect } from "react";
 import { useContextQuestions } from "../hooks/context";
 import HomePage from "./HomePage";
 import QuestionsPage from "./QuestionsPage";
+import ReportsPage from "./ReportsPage";
 
 const QuestionGeneration = () => {
   const { pageControl, handleSetPageControl } = useContextQuestions();
-  console.log(pageControl)
 
   useLayoutEffect(() => {
     handleSetPageControl("home");
@@ -14,6 +14,7 @@ const QuestionGeneration = () => {
     <div>
       {pageControl === "home" && <HomePage />}
       {pageControl === "questions" && <QuestionsPage />}
+      {pageControl === "reports" && <ReportsPage />}
     </div>
   );
 };

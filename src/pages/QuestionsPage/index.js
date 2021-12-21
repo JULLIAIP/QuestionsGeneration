@@ -1,3 +1,7 @@
+import React, { useCallback, useState } from "react";
+import { useContextQuestions } from "../../hooks/context";
+
+//Libs
 import {
   Accordion,
   AccordionDetails,
@@ -6,34 +10,44 @@ import {
 } from "@mui/material";
 import Button from "@mui/material/Button";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import React, { useCallback, useState } from "react";
 import { toast, ToastContainer } from "react-toast";
+
+//Components
 import NavBar from "../../components/NavBar";
-import { useContextQuestions } from "../../hooks/context";
+
+//Style
 import { CardQuestion, QuestionsContain, WrapperQuestions } from "./style";
 
 const QuestionsPage = () => {
-  const { history, listQuestions } = useContextQuestions();
+  const { history, listQuestions, handleSetReports, handlesetAnswers } =
+    useContextQuestions();
   const [isChecked, setIsChecked] = useState();
-  const [answers, setAnswers] = useState(0);
+
+  const answers = Number(localStorage.getItem("ansewrs"));
 
   const checkAwswer = useCallback(
-    (correct_answer) => {
-      if (isChecked === correct_answer) {
-        setAnswers(answers + 1);
+    (question, correct_answers) => {
+      if (isChecked === correct_answers) {
+        localStorage.setItem("ansewrs", answers + 1);
+        handlesetAnswers(answers + 1);
         toast.success("correct");
       } else {
         toast.error("incorrect");
       }
+      handleSetReports({
+        question,
+        correct_answers,
+        chosen_answers: isChecked,
+      });
     },
-    [answers, isChecked]
+
+    [answers, handleSetReports, handlesetAnswers, isChecked]
   );
-  const checkAll = () => {
-    localStorage.setItem("ansewrs", answers);
-  };
+
   return (
     <WrapperQuestions>
       <NavBar name={"Questions List"} />
+
       <QuestionsContain>
         {listQuestions.map((item) => (
           <Accordion>
@@ -77,22 +91,23 @@ const QuestionsPage = () => {
 
                 <Button
                   variant="outlined"
-                  onClick={() => checkAwswer(`${item.correct_answer}`)}
+                  onClick={() =>
+                    checkAwswer(`${item.question}`, `${item.correct_answer}`)
+                  }
                 >
                   Corrigir
                 </Button>
-                <ToastContainer />
               </CardQuestion>
             </AccordionDetails>
           </Accordion>
         ))}
+        <ToastContainer position="top" delay={1000} />
         <Button
           id="see-all"
           variant="contained"
           fullWidth
           onClick={() => {
             history("/review");
-            checkAll();
           }}
         >
           Ver Relatório
