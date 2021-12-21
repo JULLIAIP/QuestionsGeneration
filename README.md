@@ -1,12 +1,17 @@
 # <a href="https://cluttered-range.surge.sh/">QuestionsGeneration</a>
 
-Contruída com <a href="https://pt-br.reactjs.org/">React</a>
-Estilizada com <a href="https://mui.com/pt/">Material UI</a>
+<h5>Framework utilizado <a href="https://pt-br.reactjs.org/">React</a></h5>
+<h6>React Hooks</h6>
+<h6>Context API</h6>
+<h5>Design System utilizado <a href="https://mui.com/pt/">Material UI</a></h5>
+<hr/>
+
 
 <hr/>
 <h3>Demais libs</h3>
 <li>Styled Components</li>
 <li>React router dom</li>
+<li>Axios</li>
 <hr/>
 
 <p>Esta aplicação tem a função de deixar o participante escolher o numero de questões que elx deseja responder, corrigir as questões respondidas e apresentar a taxa de acertos.</p>
