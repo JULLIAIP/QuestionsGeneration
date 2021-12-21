@@ -24,11 +24,11 @@ export const CardContainer = styled.div`
   box-shadow: ${(props) => (props.isColor ? "#9AC843" : "#E3052E")} 2px 5px 30px;
   backdrop-filter: blur(40px);
   width: 90%;
-  height: 90%;
+  width: 50vw;
 
   .MuiCardContent-root {
     width: 50vw;
-    padding: 5%;
+    height: 90%;
     min-width: 250px;
   }
 `;

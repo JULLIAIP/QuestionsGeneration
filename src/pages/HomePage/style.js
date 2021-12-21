@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import colors from "../../styles/colors";
 import { mainContainer } from "../../styles/main";
-import { scrollbarThin } from "../../styles/scrollbar";
+import bg from "../../assets/backgorund.png";
 
 export const WrapperHome = styled.div`
   min-width: 100vw;
   min-height: 100vh;
+  background-image:url(${bg}) ;
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  background-size:30%, 50%, 50%;
 `;
 export const HomeContain = styled.div`
   display: flex; 
@@ -16,6 +20,7 @@ export const HomeContain = styled.div`
   justify-content: center;
   align-items: center;
   gap:4%;
+  
 
   .MuiCardContent-root {
     ${mainContainer}
