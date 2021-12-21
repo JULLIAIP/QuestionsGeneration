@@ -9,9 +9,9 @@
 <h6>Context API</h6>
 <hr/>
 <h3>Demais libs</h3>
-<h6>>Styled Components</h6>>
-<h6>>React router dom</h6>>
-<h6>>Axios</h6>>
+<h6>Styled Components</h6>
+<h6>React router dom</h6>
+<h6>Axios</h6>
 <hr/>
 
 <p>Esta aplicação tem a função de deixar o participante escolher o numero de questões que elx deseja responder, corrigir as questões respondidas e apresentar a taxa de acertos.</p>
