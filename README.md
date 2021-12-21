@@ -16,7 +16,7 @@
 <hr/>
 
 <p>Esta aplicação tem a função de deixar o participante escolher o numero de questões que elx deseja responder, corrigir as questões respondidas e apresentar a taxa de acertos.</p>
-![Cliente Arquitetura - Figma_3](https://user-images.githubusercontent.com/81257067/146972921-7756baeb-18f2-4d31-b0de-966453b7d5d2.jpg)
+
 
 ![React App - Google Chrome_10](https://user-images.githubusercontent.com/81257067/146971013-03c0ca75-64ad-4b68-abbc-64d62ba8c7ef.jpg)
 
@@ -25,3 +25,4 @@
 ![React App - Google Chrome_14](https://user-images.githubusercontent.com/81257067/146971139-b91e469c-6893-4f12-8fbc-4ed54018c67d.jpg)
 
 ![React App - Google Chrome_16](https://user-images.githubusercontent.com/81257067/146971484-564e96ce-d414-451a-8985-a10e6c9e2c05.jpg)
+![Cliente Arquitetura - Figma_4](https://user-images.githubusercontent.com/81257067/146973018-b066dc2e-cf6a-41b4-b51f-a48b8bf54bd5.jpg)
